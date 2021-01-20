@@ -38,6 +38,6 @@ function removeLastKitten(name){
 
 function removeFirstKitten(name){
   var newKittens =[kittens,name]
-  newKittens = array.slice(0)
+  newKittens = kittens.slice(1)
   return newKittens
 }
