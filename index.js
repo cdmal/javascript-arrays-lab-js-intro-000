@@ -37,5 +37,7 @@ function removeLastKitten(name){
 }
 
 function removeFirstKitten(name){
-  
+  var newKittens =[kittens,name]
+
+  return newKittens
 }
